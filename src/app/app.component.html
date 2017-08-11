@@ -1,0 +1,22 @@
+<h1 class="text-align=center;">{{title}}</h1>
+<br/>
+<div class="row">
+    <table class="table">
+        <thead>
+            <th>ProductName</th>
+            <th>ProductCode</th>
+            <th>ReleaseDate</th>
+            <th>Description</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let t of tasks">
+                <td>{{t.productName}}</td>
+                <td>{{t.productCode}}</td>
+                <td>{{t.releaseDate}}</td>
+                <td>{{t.description}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
